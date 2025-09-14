@@ -60,4 +60,4 @@ portfolio-website/
 
 #OUTPUT : 
 
-[CV.pdf](https://github.com/user-attachments/files/22318753/CV.pdf)
+https://github.com/KoliD05/Static-website-for-Portfolio/issues/1#issue-3414724571
