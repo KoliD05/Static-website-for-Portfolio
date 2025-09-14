@@ -60,4 +60,5 @@ portfolio-website/
 
 #OUTPUT : 
 
-https://github.com/KoliD05/Static-website-for-Portfolio/issues/1#issue-3414724571
+<img width="1833" height="866" alt="Image" src="https://github.com/user-attachments/assets/15bc1ffc-63fd-4528-9008-91a33132e676" />
+<img width="1781" height="918" alt="Image" src="https://github.com/user-attachments/assets/0d4a1e66-c1ef-4eb2-bf13-dc469305eb99" />
