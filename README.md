@@ -56,3 +56,8 @@ portfolio-website/
 │ └── project-screenshots, profile pic, etc.
 ├── assets/
 └── README.md
+
+
+#OUTPUT : 
+
+[CV.pdf](https://github.com/user-attachments/files/22318753/CV.pdf)
