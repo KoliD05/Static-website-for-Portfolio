@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Koli Debnath - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+  href="style.css">
+
+</head>
+<body>
+  <!-- ====== Header / Nav ====== -->
+  <header class="header" id="top">
+    <a class="logo" href="#top">Your<span>Dev</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="open menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a class="nav__link" href="#about">About</a>
+      <a class="nav__link" href="#skills">Skills</a>
+      <a class="nav__link" href="#projects">Projects</a>
+      <a class="nav__link" href="#contact">Contact</a>
+      <button id="themeToggle" class="btn btn--ghost" title="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <!-- ====== Hero / Home ====== -->
+  <section class="hero" id="home">
+    <div class="hero__content container">
+      <div class="hero__text">
+        <h1>Hi, I’m <span>Koli</span></h1>
+        <p class="tagline">Code • Learn • Build • CSE Undergrad • Web Projects</p>
+
+        <div class="hero__cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="assets/CV.pdf" class="btn btn--ghost" download>Download Resume</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/KoliD05" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/koli-dn" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:kolidebnath453@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero__photo">
+        <!-- Replace with your own image in /assets -->
+        <img src="assets/profile.jpg.jpg" alt="Your portrait" />
+        <a href="assets/CV.pdf" download> Download Resume</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== About ====== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <p class="section__lead">
+        I’m a Computer Science student who enjoys building clean, responsive web interfaces.
+        I love solving problems and turning ideas into real, usable products.
+      </p>
+
+      <div class="about__grid">
+<div class="about__card">
+  <h3>Education</h3>
+  <ul>
+    <li><strong>B.Tech CSE</strong>, The ICFAI University, Tripura (2023–2027)</li>
+    
+    <li>Certifications & Internships:
+      <ul>
+        <li>
+          <a href="assets\NITA.jpg" target="_blank">
+            Cybersecurity Internship at NIT Agartala
+          </a> — Completion Certificate
+        </li>
+        <li>
+          <a href="https://www.coursera.org/account/accomplishments/records/8XQ29SSCXDF4" target="_blank">
+            Foundation of User Experience Design
+          </a> — Completion Certificate
+        </li>
+        <li>
+          <a href="https://www.coursera.org/account/accomplishments/records/DTEXSK45FX2J" target="_blank">
+            Using Basic Formulas and Functions in Microsoft Excel
+          </a> — Completion Certificate
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div></li>
+          </ul>
+        </div>
+
+        <div class="about__card">
+          <h3>Interests</h3>
+          <ul>
+            <li>Frontend (HTML, CSS, JS)</li>
+            <li>UI/UX & responsive design</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
+
+        <div class="about__card">
+  <h3>Goals</h3>
+  <ul>
+    <li>Contribute to open-source projects and tech communities</li>
+    <li>Build user-friendly web applications with modern JavaScript frameworks</li>
+    <li>Gain industry experience through internships and collaborative projects</li>
+    <li>Master full-stack development</li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Skills ====== -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section__title">Skills</h2>
+
+      <div class="skills__grid">
+        <!-- Simple skill tags -->
+        <div class="chip">HTML5</div>
+        <div class="chip">CSS3</div>
+        <div class="chip">JavaScript</div>
+        <div class="chip">Responsive Design</div>
+        <div class="chip">Python</div>
+        <div class="chip">C/C++</div>
+       
+      </div>
+
+      <!-- Progress style bars (optional) -->
+      <div class="bars">
+        <div class="bar">
+          <span>HTML/CSS</span>
+          <div class="bar__track"><i style="width: 90%"></i></div>
+        </div>
+        <div class="bar">
+          <span>JavaScript</span>
+          <div class="bar__track"><i style="width: 75%"></i></div>
+        </div>
+        <div class="bar">
+          <span>Python</span>
+          <div class="bar__track"><i style="width: 70%"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects ====== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="cards">
+        <article class="card">
+          <img src="assets/project-portfolio.png" alt="Portfolio screenshot">
+          <div class="card__body">
+            <h3>Developer Portfolio</h3>
+            <p>Responsive site to present skills, projects, and contact — the one you’re viewing now.</p>
+            <div class="card__links">
+              <a class="btn btn--sm" href="#" target="_blank">Live</a>
+              <a class="btn btn--sm btn--ghost" href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/project-recipe.png" alt="Recipe Finder screenshot">
+          <div class="card__body">
+            <h3>Recipe Finder</h3>
+            <p>Enter ingredients to discover recipes. Built with HTML/CSS/JS and local storage.</p>
+            <div class="card__links">
+              <a class="btn btn--sm" href="#" target="_blank">Live</a>
+              <a class="btn btn--sm btn--ghost" href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/project-todo.png" alt="To-Do App screenshot">
+          <div class="card__body">
+            <h3>To-Do App</h3>
+            <p>Task manager with add/complete/delete and persistence via local storage.</p>
+            <div class="card__links">
+              <a class="btn btn--sm" href="#" target="_blank">Live</a>
+              <a class="btn btn--sm btn--ghost" href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact ====== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section__title">Contact Me</h2>
+      <p class="section__lead">
+        I’m open to internships, freelance work, and collaborations.
+      </p>
+
+      <div class="contact__grid">
+        <form class="contact__form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button type="submit" class="btn">Send</button>
+          <p id="formMsg" class="form__msg" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact__info">
+          <h3>Reach me at</h3>
+          <ul>
+            <li>Email: <a href="mailto:kolidebnath453@gmail.com">kolidebnath453@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/KoliD05" target="_blank" rel="noreferrer">github.com/KoliD05</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/koli-dn" target="_blank" rel="noreferrer">linkedin.com/in/koli-dn</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Koli Debnath. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
